@@ -1,0 +1,450 @@
+h1 {
+  font-size: 18px;
+  color: white;
+  color:(239,239,239);
+  text-align: center;
+  font-family: 'Lobster';
+}
+
+.w3-panel {
+  background-color: #a0c6e6;
+}
+
+h2{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Lobster';
+}
+
+/* p{
+  font-size: 30px;
+  font-family: 'Lobster';
+  text-align: center;
+  color: black;
+} */
+
+button{
+  background-color: #a0c6e6;
+  border:2px solid white;
+  text-align: center;
+  color: white;
+  font-family: 'Lobster';
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 135px;
+  height: 40px;
+}
+
+#yellow {
+  background-color: #edeb6f;
+  border:2px solid white;
+  color:white;
+  /* padding:15px 80px; */
+  font-family: 'Lobster';
+  /* margin-left: 40px;
+  margin-bottom: 40px; */
+}
+
+#green {
+  background-color: #aff285;
+  border:2px solid white;
+  color:white;
+  /* padding:15px 80px; */
+  font-family: 'Lobster';
+  /* margin-left: 40px;
+  margin-bottom: 40px; */
+}
+
+#purple {
+  background-color: #cf8ef5;
+  border:2px solid white;
+  color:white;
+  /* padding:15px 80px; */
+  font-family: 'Lobster';
+  /* margin-left: 40px;
+  margin-bottom: 40px; */
+}
+
+#orange {
+  background-color:#eb9257;
+  border:2px solid white;
+  color:white;
+  /* padding:15px 80px; */
+  font-family: 'Lobster';
+  /* margin-left: 40px;
+  margin-bottom: 40px; */
+}
+
+#pink {
+  background-color:#faa2ee;
+  border:2px solid white;
+  color:white;
+  /* padding:15px 80px; */
+  font-family: 'Lobster';
+  /* margin-left: 40px;
+  margin-bottom: 40px; */
+}
+
+#white {
+  background-color:white;
+  border:2px solid black;
+  color:black;
+  /* padding:15px 80px; */
+  font-family: 'Lobster';
+  /* margin-left: 40px;
+  margin-bottom: 40px; */
+}
+
+#red {
+  background-color:#e32932;
+  border:2px solid white;
+  color:white;
+  /* padding:15px 80px; */
+  font-family: 'Lobster';
+  /* margin-left: 40px;
+  margin-bottom: 40px; */
+}
+
+#black {
+  background-color:black;
+  border:2px solid white;
+  color:white;
+  /* padding:15px 80px; */
+  font-family: 'Lobster';
+  /* margin-left: 40px;
+  margin-bottom: 40px; */
+}
+
+#brown {
+  background-color:#613b3b;
+  border:2px solid white;
+  color:white;
+  /* padding:15px 80px; */
+  font-family: 'Lobster';
+  /* margin-left: 40px;
+  margin-bottom: 40px; */
+}
+
+#beige {
+  background-color: #d2b48c;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster";
+}
+
+#teal {
+  background-color: #1a6c6e;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster";
+}
+
+#grey {
+  background-color:#777d7d;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster";
+}
+
+#peach {
+  background-color: #e3af7f;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster";
+}
+
+#burgundy {
+  background-color: #630c0c;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster";
+}
+
+#fuscia {
+  background-color:#d959b7;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster";
+}
+
+#brinkpink {
+  background-color:#FB607F;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster";
+}
+
+#cyan {
+  background-color:#27e3d0;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#amazon {
+  background-color:#3B7A57;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#camel {
+  background-color:#C19A6B;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#cinnabar {
+  background-color:#E34234;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#copper {
+  background-color:#B87333;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#drab {
+  background-color:#6B8E23;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#coral {
+  background-color:#FF7F50;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#fandango {
+  background-color:#B53389;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#flax {
+  background-color:#EEDC82;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#fulvous {
+  background-color:#E48400;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#erin {
+  background-color:#00FF40;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#flirt {
+  background-color:#A2006D;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#denim {
+  background-color:#1560BD;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#citrine {
+  background-color:#E4D00A;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#emerald {
+  background-color:#50C878;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#flame {
+  background-color:#E25822;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#fuschsia {
+  background-color:#FF00FF;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#bronze {
+  background-color:#CD7F32;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#blush {
+  background-color:#DE5D83;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#taupe {
+  background-color:#7E5E60;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#ebony {
+  background-color:#555D50;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#eggplant {
+  background-color:#614051;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#coquelicot {
+  background-color:#FF3800;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#ecru {
+  background-color:#C2B280;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#cordovan {
+  background-color:#893F45;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+#cyclamen {
+  background-color:#F56FA1;
+  border:2px solid white;
+  color:white;
+  font-family: "Lobster"
+}
+
+nav ul li:nth-child(1) a {
+color: #E9967A;
+font-size: 25px;
+text-decoration: underline; }
+
+nav ul li:nth-child(2) a {
+color: #9ee889;
+font-size: 25px;
+text-decoration: underline; }
+
+nav ul li:nth-child(3) a {
+color: #a0c6e6;
+font-size: 25px;
+text-decoration: underline; }
+
+nav ul li:nth-child(4) a {
+color: #b4a8d5;
+font-size: 25px;
+text-decoration: underline; }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 800px;
+  height: 60px;
+  margin-left: 500px;
+  list-style: none;
+  background-color: none;
+}
+
+nav ul {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  display:block;
+  font-family: Lobster;
+  color: #e9967a;
+  font-size: 25px;
+  padding: 21px 14px;
+  text-decoration: underline;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #efefef;
+  border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li ul li {
+  width: 115px;
+  border-radius: 4px;
+}
+
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul a {
+  padding: 12px 14px;
+}
+
+nav ul li ul li {
+ border-radius: 4px;
+}
+
+nav ul li ul a:hover {
+  background-color: #dbdbdb;
+  border-radius: 0px 0px 4px 4px;
+}
+
+
+
+
+
+#color {
+  font-size: 30px;
+  font-family: 'Lobster';
+  color: black;
+  text-align: center;
+}

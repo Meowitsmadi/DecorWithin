@@ -1,0 +1,259 @@
+body {
+  background-size: cover;
+}
+h1{
+  font-size: 18px;
+  color: white;
+  color: (239,239,239);
+  text-align: center;
+  font-family: 'Lobster';
+}
+
+.w3-panel{
+  background-color: #9ee889;
+  /* font-family: "Lobster", serif; */
+}
+
+h2{
+  color: white;
+  color: (239,239,239);
+  text-align: center;
+  font-family: 'Helvetica';
+}
+
+
+h3{
+  color: black;
+  color: (239,239,239);
+  text-align: center;
+  font-family: 'Trebuchet MS';
+  margin-right: 375px;
+}
+
+h4{
+  color: grey;
+  color: (239,239,239);
+  text-align: center;
+  font-family: 'Trebuchet MS';
+}
+
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("file:///Users/girlswhocode/Downloads/html/room6.jpg");
+  z-index: -1;
+
+  height: 80%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.box1 {
+
+  margin-top: 210px;
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Trebuchet MS';
+}
+
+.box2 {
+  margin-left: 1000px;
+  margin-top: -125px;
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Trebuchet MS';
+}
+
+.box3 {
+  margin-left: 130px;
+  margin-top: 70px;
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Trebuchet MS';
+}
+
+.box4 {
+  /* border: 5px solid white;
+  background-color: white; */
+  margin-left: 770px;
+  margin-top: -350px;
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Trebuchet MS';
+}
+
+.box5 {
+  margin-left: 800px;
+  margin-top: 220px;
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Trebuchet MS';
+}
+
+.box6 {
+  /* border: 5px solid white;
+  background-color: white; */
+  margin-left: 200px;
+  margin-top: -390px;
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Trebuchet MS';
+}
+
+.box7 {
+  margin-left: 130px;
+  margin-top: 200px;
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Trebuchet MS';
+}
+
+.box8 {
+  /* border: 5px solid white;
+  background-color: white; */
+  margin-left: 770px;
+  margin-top: -380px;
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Trebuchet MS';
+}
+
+.box9 {
+  margin-left: 800px;
+  margin-top: 230px;
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Trebuchet MS';
+}
+
+.box10 {
+  /* border: 5px solid white;
+  background-color: white; */
+  margin-left: 200px;
+  margin-top: -400px;
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Trebuchet MS';
+}
+
+.box11 {
+  color: #9CABCD;
+  margin-left: -30px;
+  margin-top: 170px;
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Trebuchet MS';
+}
+
+.mySlides {
+  margin-top: -250px;
+}
+
+nav ul li:nth-child(1) a {
+color: #E9967A;
+font-size: 25px;
+text-decoration: underline; }
+
+nav ul li:nth-child(2) a {
+color: #9ee889;
+font-size: 25px;
+text-decoration: underline; }
+
+nav ul li:nth-child(3) a {
+color: #86b9e3;
+font-size: 25px;
+text-decoration: underline; }
+
+nav ul li:nth-child(4) a {
+color: #9b89cc;
+font-size: 25px;
+text-decoration: underline; }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 800px;
+  height: 60px;
+  margin-left: 500px;
+  list-style: none;
+  background-image: none;
+  background-size: cover;
+}
+
+nav ul {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  display:block;
+  font-family: Lobster;
+  color: #e9967a;
+  font-size: 25px;
+  padding: 21px 14px;
+  text-decoration: underline;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #efefef;
+  border-radius: 0px 0px 4px 4px;
+  background-image: url("file:///Users/girlswhocode/Downloads/html/pas4.png")
+}
+
+nav ul li ul li {
+  width: 115px;
+  border-radius: 4px;
+}
+
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul a {
+  padding: 12px 14px;
+}
+
+nav ul li ul li {
+ border-radius: 4px;
+}
+
+nav ul li ul a:hover {
+  background-color: #dbdbdb;
+  border-radius: 0px 0px 4px 4px;
+}

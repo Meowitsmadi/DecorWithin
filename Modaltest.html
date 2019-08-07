@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="Modaltest.css">
+    <script src="Modaltest.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DecorWithin</title>
+
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+
+<style>
+.collapsible {
+  position: absolute;
+  background-color: #9ee889;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  top: 650px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 25px;
+  font-family: Lobster;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #b7d6aa;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  font-family: Lobster;
+  color: black;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #9ee889;
+  position: absolute;
+  top: 710px;
+  font-size: 20px;
+  /* text-shadow: 2px 2px 2px #000; */
+}
+
+.collapsible:after {
+  content:'✧';
+  font-size: 25px;
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: '✦';
+}
+</style>
+
+</head>
+<body>
+  <div class="header" style="color: (239,239,239);">
+  <header>
+    <h1 span class="custom">Budget🏠Decorating</h1>
+  </header>
+  </div>
+
+  <div>
+  <nav>
+    <ul>
+      <li><a href="file:///Users/girlswhocode/Desktop/HTML%20stuff/DecorWithin.html">Home</a>
+    <ul>
+      <li><a href="file:///Users/girlswhocode/Desktop/HTML%20stuff/SeasonalDW.html">Seasonal</a></li>
+      <li><a href="file:///Users/girlswhocode/Desktop/HTML%20stuff/Modaltest.html">Budget</a></li>
+    </ul>
+      <li><a href="file:///Users/girlswhocode/Desktop/HTML%20stuff/finalproject.html">Color Match</a></li>
+      <li><a href="file:///Users/girlswhocode/Desktop/HTML%20stuff/Moodboard.html">Moods</a></li>
+      <li><a href="file:///Users/girlswhocode/Desktop/HTML%20stuff/aboutus2.html">About Us</a></li>
+    </ul>
+  </nav>
+  </div>
+
+
+
+
+
+<div class="row">
+  <div class="column">
+    <img src="https://i.pinimg.com/564x/c6/80/ac/c680ac693664560fbb885da4a7d9fd24.jpg" style="width:250px%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" id="wallDecor">
+  </div>
+  <div class="column">
+    <img src="https://www.faceliftfurniture.com/wp-content/gallery/coffee-tables-before-after/Chunky-Black-Coffee-Table-Before-After.jpg" style="width:250px" onclick="openModal();currentSlide(2)"  class="hover-shadow cursor" id="table">
+  </div>
+  <div class="column">
+    <img src="https://i.pinimg.com/originals/07/c5/97/07c597fae0ddf7f69d3680186022707a.jpg" style="width:250px" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" id="couch">
+  </div>
+  <div class="column">
+    <img src="https://i.pinimg.com/564x/42/18/c0/4218c0556cf99012d617929f6aa080db.jpg" style="width:250px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" id="flowers">
+  </div>
+  <div class="column">
+    <img src="https://i.pinimg.com/564x/87/43/fb/8743fb7a62338382fbdb9d9967177b13.jpg" style="width: 250px" onclick="openModal();currentSlide(5)" class="hover-shadow cursor" id="cabinet">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="https://i.pinimg.com/564x/c6/80/ac/c680ac693664560fbb885da4a7d9fd24.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="https://www.faceliftfurniture.com/wp-content/gallery/coffee-tables-before-after/Chunky-Black-Coffee-Table-Before-After.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="https://i.pinimg.com/originals/07/c5/97/07c597fae0ddf7f69d3680186022707a.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="https://i.pinimg.com/564x/42/18/c0/4218c0556cf99012d617929f6aa080db.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="https://i.pinimg.com/564x/87/43/fb/8743fb7a62338382fbdb9d9967177b13.jpg" style="width:100%">
+    </div>
+  </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="https://i.pinimg.com/564x/c6/80/ac/c680ac693664560fbb885da4a7d9fd24.jpg" style="width:100%"
+      onclick="currentSlide(1)" alt="Already made decor can get expensive. DIYing your own is much cheaper and more personalized!
+      For example, you can find wooden letters for around $3 and the fake branches for $7.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://www.faceliftfurniture.com/wp-content/gallery/coffee-tables-before-after/Chunky-Black-Coffee-Table-Before-After.jpg" style="width:100%"
+      onclick="currentSlide(2)" alt="Even just a simple recolor of furniture can spruce up a room! Notice how the black table looks
+      much more modern and clean. You don't have to buy a new table to change the look.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://i.pinimg.com/originals/07/c5/97/07c597fae0ddf7f69d3680186022707a.jpg" style="width:100%"
+      onclick="currentSlide(3)" alt=" Changing the fabric and just adding throw pillows with a blanket can help! Your couch might look
+      like it needs to go in the trash, but w/ a little time and effort, it will look brand new.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://i.pinimg.com/564x/42/18/c0/4218c0556cf99012d617929f6aa080db.jpg" style="width:100%"
+      onclick="currentSlide(4)" alt="Back to DIYing! These might be small decorations but they can change the style drastically. This retails for $50
+      but you can make your own version for around $10!
+      ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://i.pinimg.com/564x/87/43/fb/8743fb7a62338382fbdb9d9967177b13.jpg" style="width:100%"
+      onclick="currentSlide(5)" alt="Repurpose old furniture to have multipurposes! This cabinet now serves as a bench and cabinet,
+      saving space and money!">
+    </div>
+  </div>
+</div>
+
+<div>
+  <h2 class="start">Here are our best tips to decorate on a budget! Whether you DIY
+   your own decor, thrift-flip some furniture, or turn something into something completely
+ new, it doesn't need to cost a lot of money to look expensive! Click the images for a simple slideshow
+   or click the buttons below to search for more tips.</h2>
+</div>
+
+<div>
+<h3 id=search>Find more tips below!</h3>
+<button class="collapsible">Color</button>
+<div class="content">
+  <p>• The best color tip is from freshome.com and it was the 60-30-10 rule.
+     When choosing colors for a room, you should have 60% of a room, like the walls, saved
+     for a dominant and neutral color. 30% should go to a secondary color and 10% should
+     be used for an accent.<br>
+     • Having an accent wall can make a room feel larger than it really is and
+       can make the room less monotone. </p>
+       <br>
+</div>
+<div>
+<button class="collapsible2">Furniture</button>
+<div class="content2">
+  <p>• Rearranging your furniture can give your house a new look without buying
+     new furniture. Try adding more into a spacious room or consider taking some away
+     so the room doesn’t look too busy. This costs nothing so its great for people
+     who do not want to spend money. <br>
+     • Look for furniture at thrift stores and garage sales. Most furniture only
+      needs a simple coat of paint, sanding, or varnish/finish.</p>
+      <br>
+</div>
+<button class="collapsible3">Decor</button>
+<div class="content3">
+  <p>• Stop buying expensive frames from JoAnn’s and Michael’s! Picture frames can
+      cost a lot and you’re better off shopping at flea markets and antique
+      stores.<br>
+      • It might sound dumb, but make paper decorations! Pinterest and other blogs
+       have amazing DIYs and they actually turn out pretty good and can transform your
+       space. </p>
+       <br>
+</div>
+<button class="collapsible4">Random</button>
+<div class="content4">
+  <p> • Hide your cords! Using cheap cord concealers can make your house look more
+      clean without having cords everywhere and can also save space. <br>
+      • Use websites like Shoptagr to know when things go on sale! Shoptagr has
+       hundreds of websites to pick products from and will notify you when they
+       go on sale.</p>
+       <br>
+</div>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+
+var coll = document.getElementsByClassName("collapsible2");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+
+var coll = document.getElementsByClassName("collapsible3");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+
+var coll = document.getElementsByClassName("collapsible4");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+
+
+
+
+
+
+</body>
+</html>

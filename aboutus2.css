@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body{
+  /* font-family: "Lobster", serif; */
+  text-align: center;
+  background-image: url("file:///Users/girlswhocode/Downloads/greybackground.jpg");
+  background-size: 80%;
+  color: rgb(180, 167, 214);
+}
+
+button {
+  width: 150px;
+  height: 35px;
+  color: rgb(180, 167, 214);
+  background-color: rgb(217, 210, 233);
+  margin-top: 20px;
+  font-family: "Lobster";
+}
+
+h1{
+  border: 3px solid rgb(180, 167, 214);
+  color: white;
+  font-family: "Lobster";
+}
+
+
+.w3-panel{
+  background-color: rgb(180, 167, 214);
+  text-align: center;
+  /* font-family: "Lobster", serif; */
+}
+
+#bio {
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Lobster", serif;
+
+
+}
+
+#inspo {
+  font-size: 20px;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  margin-top: 60px;
+  font-family: "Lobster", serif;
+}
+
+#alison {
+  margin-right: 50%;
+  margin-top: -250px;
+  border: 5px solid white;
+}
+
+ .row {
+  display: flex;
+}
+
+
+.column {
+  flex: 12.5%;
+  padding: 5px;
+}
+
+b {
+  font-size: 20px;
+}
+
+.box {
+  width: 40%;
+  margin-left: 50%;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255)
+
+}
+
+h4 {
+  margin-left: 50%;
+}
+
+#selfie {
+  border: 5px solid white;
+  z-index: -1;
+}
+
+nav ul li:nth-child(1) a {
+color: #E9967A;
+font-size: 25px;
+text-decoration: underline; }
+
+nav ul li:nth-child(2) a {
+color: #9ee889;
+font-size: 25px;
+text-decoration: underline; }
+
+nav ul li:nth-child(3) a {
+color: #a0c6e6;
+font-size: 25px;
+text-decoration: underline; }
+
+nav ul li:nth-child(4) a {
+color: #b4a8d5;
+font-size: 25px;
+text-decoration: underline; }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 800px;
+  height: 60px;
+  margin-left: 500px;
+  list-style: none;
+  background-color:none;
+}
+
+nav ul {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  display:block;
+  font-family: Lobster;
+  color: #e9967a;
+  font-size: 25px;
+  padding: 21px 14px;
+  text-decoration: underline;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #efefef;
+  border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li ul li {
+  width: 115px;
+  border-radius: 4px;
+}
+
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul a {
+  padding: 12px 14px;
+}
+
+nav ul li ul li {
+ border-radius: 4px;
+}
+
+nav ul li ul a:hover {
+  background-color: #dbdbdb;
+  border-radius: 0px 0px 4px 4px;
+}
