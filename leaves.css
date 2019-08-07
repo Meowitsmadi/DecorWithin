@@ -25,12 +25,14 @@ h1{
 h2{
   font-family: Lobster;
   text-align: center;
+  font-size: 42px;
   text-decoration: underline;
   color: rgb(201,120,20)
 
 }
 h3{
   font-family: Lobster;
+  font-size: 24px;
   text-align: center;
   color: rgb(201,120,20)
 }
