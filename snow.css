@@ -23,10 +23,19 @@ h1{
   font-family: Lobster;
     text-align: center;
     color:rgb(122, 163, 230);
-    font-size: 23px;
-    /*text-decoration: underline;*/
-
 }
+
 h2{
+  font-family: Lobster;
+  font-size: 42px;
   text-align: center;
+  text-decoration: underline;
+  color: rgb(122, 163, 230) ;
+}
+
+h3 {
+  font-family: Lobster;
+  font-size: 24px;
+  text-align: center;
+  color: rgb(122, 163, 230) ;
 }
